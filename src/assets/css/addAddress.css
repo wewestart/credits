@@ -1,0 +1,131 @@
+body,
+html {
+  background-color: #f3f3f3;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+@media only screen and (min-width: 400px){
+	html{
+	font-size:40px !important;
+	}
+}
+@media only screen and (min-width: 768px){
+	html{
+	font-size:60px !important;
+	}
+}
+
+.address {
+  background-color: #f3f3f3;
+  width: 100%;
+  font-size: 0.346667rem;
+  margin-top: 0.24rem;
+}
+.address .list {
+  width: 100%;
+  height: 0.933333rem;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 0.026667rem;
+  color: #3a0808;
+  position: relative;
+}
+.address .list .addressMast {
+  width: 0.133333rem;
+  height: 0.133333rem;
+  position: absolute;
+  top: 0.32rem;
+  left: 0.533333rem;
+}
+.address .list span {
+  font-weight: 700;
+  margin-right: 0.533333rem;
+  margin-left: 0.8rem;
+}
+.address .list .addre {
+  letter-spacing: 0.16rem;
+  margin-right: 0.4rem;
+}
+.address .list input {
+  border: none;
+  outline: none;
+  flex:1;
+  height: 80%;
+}
+.address .list input::placeholder {
+  color: #9c8f8f;
+}
+.address .list .arrow {
+  width: 0.266667rem;
+  height: auto;
+  right:0.6667rem;
+  position:absolute;
+  top: 50%;
+  transform:translateY(-50%);
+}
+.toolbar,
+.toolbar .title {
+  font-size: 0.346667rem !important;
+}
+.weui-picker-modal .picker-items {
+  font-size: 0.346667rem !important;
+}
+.toolbar .toolbar-inner {
+  height: 1.2rem !important;
+}
+.toolbar .title {
+  line-height: 1.2rem !important;
+}
+.toolbar .picker-button {
+  height: 1.2rem !important;
+  line-height: 1.2rem !important;
+}
+.weui-picker-modal {
+  background: #fff !important;
+}
+.my_mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  display: none;
+}
+.btns {
+  height: 1.28rem;
+  width: 100%;
+  margin-top: 3.92rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.btns span {
+  width: 8rem;
+  height: 100%;
+  background: url(../images/btn-bottom.png) no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.373333rem;
+  color: #C3182C;
+}
+.btns .btn_mask {
+  position: absolute;
+  width: 8rem;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f3f3f3;
+  opacity: 0.5;
+  z-index: 20;
+  border-radius:1.28rem;
+}
+.btns .btn_mask.active {
+  display: none;
+}

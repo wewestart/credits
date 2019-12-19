@@ -1,0 +1,117 @@
+body{
+    background-image: url(../images/z852.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 1.013333rem 0 .4rem 0;
+    height: 24.64rem;
+}
+.L_conten{
+    margin-top: .266667rem;
+}
+.L_tag{
+    background-image: url(../images/kbg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    width: 7.706667rem;
+    height: 4.04rem;
+}
+.L_header p{
+    text-align: center;
+}
+.L_title{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #ffc880;
+}
+.L_titlex{
+    color: #ffc880;
+    margin: .253333rem 0 .373333rem 0;
+}
+.L_tips{
+    color: #e30020;
+    margin-top: .6rem;
+    text-align: center;
+}
+.L_tips1{
+    font-size: .48rem;
+    font-weight: bold;
+}
+.L_tips2{
+    margin-top: .213333rem;
+}
+.L_tips3{
+    text-align: center;
+    margin-top: .346667rem;
+    font-weight: bold;
+    color: #e30020;
+}
+.L_tips3 i{
+    display: inline-block;
+    width: .533333rem;
+    height: .533333rem;
+    background-image: url(../images/footerleft.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.L_tips3 span{
+    font-size: .933333rem;
+}
+.L_tips3 em{
+    font-size: .426667rem;
+}
+.L_contitle{
+    font-size: .533333rem;
+    color: #ffc880;
+    text-align: center;
+    font-weight: bold;
+}
+.L_contitle i{
+    display: inline-block;
+    width: .533333rem;
+    height: .28rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 .133333rem;
+}
+.L_contitle .bg1{
+    background-image: url(../images/tubiao2.png);
+}
+.L_contitle .bg2{
+    background-image: url(../images/tubiao1.png);
+}
+.L_summary{
+    background-image: url(../images/bzt.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 6.853333rem;
+    width: 9.2rem;
+    position: relative;
+}
+.L_summary div{
+    font-size: .4rem;
+    width: 6.986667rem;
+    font-weight: bold;
+}
+.L_red{
+    color: #a2000f;
+}
+
+.L_summarys{
+    position: absolute;
+    top: .606667rem;
+    left: 1.626667rem;
+}
+.L_summary2,.L_summary3{
+    margin-top: 1.203333rem;
+}
+.L_msg{
+    width: 8.8rem;
+    color: #fed5bc;
+    font-size: .373333rem;
+    margin-top: .413333rem;
+}
+.L_wxts{
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+body,
+html {
+  background-color: #f3f3f3;
+  padding-bottom: 1.333333rem;
+}
+p {
+  height: 1.093333rem;
+  line-height: 1.093333rem;
+  box-sizing: border-box;
+  padding-left: 0.533333rem;
+  font-size: 0.346667rem;
+  color: #6e5757;
+}
+.list ul {
+  background-color: #f3f3f3;
+  margin-bottom: 0.213333rem;
+}
+.list ul li {
+  background-color: #fff;
+  margin-bottom: 0.026667rem;
+  width: 100%;
+  height: 0.933333rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 0.533333rem;
+  font-size: 0.346667rem;
+}
+.list ul li span:first-child {
+  color: #3a0808;
+}
+.list ul li span:last-child {
+  color: #715c5c;
+  margin-left: 0.586667rem;
+}
+.list ul li b {
+  font-weight: normal;
+}
+.list ul li span.red {
+  color: #ea5649;
+}

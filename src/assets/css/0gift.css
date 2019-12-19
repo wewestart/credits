@@ -1,0 +1,76 @@
+.L_head img{
+    width: 100%;
+}
+.L_conten{
+    background-image: url(../images/jpd.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 2.973333rem;
+    padding-bottom: .133333rem;
+    
+}
+.L_jje{
+    padding: 0 .32rem;
+    margin: .306667rem 0 1.2rem 0;
+}
+.L_jje1{
+    padding: 0 .32rem;
+    margin: .306667rem 0 .306667rem  0;
+}
+.L_conten img{
+    width: 100%;
+}
+.bg_quan{
+    display: inline-block;
+    width: .32rem;
+    height: .32rem;
+    background-color: #fed5bc;
+    /* border: 1px solid #fed5bc; */
+    border-radius: 50%;
+    margin-right: .146667rem;
+}
+.L_text{
+    width: 100%;
+    font-size: .293333rem;
+    color: #fed5bc;
+    font-weight: bold;
+    
+}
+.L_tig{
+    font-size: .493333rem;
+    font-weight: bold;
+    color: #fed5bc;
+    position: relative;
+    
+}
+
+
+.L_msg{
+    padding: .533333rem .8rem;
+}
+.L_dk{
+    width: 1.966667rem;
+    height: .213333rem;
+    display: inline-block;
+    background-color: #b54645;
+    position: absolute;
+    bottom: 0;
+    border-radius: .213333rem;
+    z-index: 2;
+}
+.L_tig p{
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+}
+.L_btn{
+    background-image: url(../images/zjfbtn.png);
+    width: 90%;
+    height: 1.333333rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    line-height: 1.333333rem;
+    text-align: center;
+    font-size: .453333rem;
+    color: #a32227;
+}

@@ -1,0 +1,41 @@
+body{
+	flex-direction: column;/*设置主轴方向为垂直方向,起点在上方*/
+	display: flex;
+	margin: 0;
+	box-sizing: border-box;
+	min-height: 100vh;
+}
+/*在主轴上的几种对其方式*/
+/*居中对齐*/
+.zzCenter{
+	justify-content: center;
+}
+/*项目之间间隔相等*/
+.zzBetween{
+	justify-content: space-between;
+}
+/* 左对齐 */
+.zzStart{
+	justify-content:flex-start;
+}
+/* 右对齐 */
+.zzEnd{
+	justify-content:flex-end;
+}
+/*设置交差轴的对齐方式，类似于行高的居中方式?*/
+/*交叉轴中点对齐*/
+.qxCenter{
+	align-items: center;
+}
+.flex{
+	display: flex;
+
+}
+
+/* 字体颜色 */
+.color_F{
+	color: #ffffff !important;
+}
+.color_J{
+	color: #ff5700;
+}

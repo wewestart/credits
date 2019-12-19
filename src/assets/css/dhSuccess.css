@@ -1,0 +1,58 @@
+body,
+html {
+  background-color: #f3f3f3;
+  height: 100%;
+  overflow: hidden;
+}
+.dhSuccess {
+  width: 5.186667rem;
+  height: 3.813333rem;
+  margin-left: 2.453333rem;
+  margin-top: 3.146667rem;
+}
+.info {
+  height: 1.146667rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.56rem;
+  color: #3a0808;
+  font-weight: 700;
+}
+.infos {
+  color: #ea5649;
+  font-size: 0.32rem;
+  padding: 0 0.933333rem;
+  margin-top: 0.266667rem;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  line-height: 0.48rem;
+}
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 1.066667rem;
+  height: 1.28rem;
+  margin-top: 1.413333rem;
+}
+.btns span {
+  height: 100%;
+  width: 3.733333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.426667rem;
+}
+.btns span:first-child {
+  color: #c3182c;
+  background: url(../images/btn1.png) no-repeat;
+  background-size: contain;
+}
+.btns span:last-child {
+  color: #fff;
+  background: url(../images/btn2.png) no-repeat;
+  background-size: contain;
+}
