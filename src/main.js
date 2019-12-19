@@ -17,7 +17,9 @@ Vue.prototype.showtoast = (info) => {
     isCenter: true
   })
 }
-store.dispatch('ToggleDefaultParam', { openid: '45545' })
+let obj = { }
+obj = { unionid: 'o7EX8wByJufvTHjrzp8d-4x-EBts', sign: '3a9bdf7a9842ee89eadc1c6cd4a7f5cf8ad0434c', openid: 'oisd75XjK_5ORc2zAidGXsyTDjSM', noncestr: '45c166d697d65080d54501403b433256', timestamp: '1586739611' }
+store.dispatch('ToggleDefaultParam', obj)
 router.beforeEach((to, from, next) => { // 设置每个页面的标题
   if (to.meta.name) {
     // store.dispatch('ToggleDefaultParam', { openid: '45545' })
